@@ -1,0 +1,47 @@
+.skills-container {
+    background-color: rgb(72,81,110);
+    color: white;
+    padding: 60px 20px;
+    width: 100%; 
+    margin-top: 5%;
+}
+
+
+.skills-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.skills-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.skills-container .progress-container {
+    padding: 20px;
+}
+
+.skills-container .progress-item {
+    display: block;
+    text-align: left;
+}
+
+.skills-container .progress-item span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.skills-container .progress {
+    height: 20px;
+    background-color: #444;
+}
+
+.skills-container .progress-bar {
+    background-color: #6c757d;
+}
+.my-0{
+    margin-left: 2%;
+    width: 30%;
+}

@@ -1,0 +1,35 @@
+.portfolio-container {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+}
+
+.portfolio-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: rgb(72,81,110); 
+    color: #fff;
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 40px 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+hr {
+    border-top: 2px solid #fff;
+    width: 60px;
+    margin: 10px auto;
+}

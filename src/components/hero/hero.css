@@ -1,0 +1,39 @@
+.footer-container {
+    background-color: rgb(72,81,110);
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.footer-container h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+.footer-container .social-icons button {
+    font-size: 20px;
+    border: none;
+    background: none;
+    color: #fff;
+    padding: 0;
+}
+
+.footer-container .social-icons button:hover {
+    color: #765f5f;
+}
+
+.footer-container .btn {
+    border-color: #fff;
+}
+
+.ico:hover{
+    background-color:black; 
+    color: #ffffff;
+}
+.cont :hover{
+    background-color: #000000;
+    color: #ffffff;
+}

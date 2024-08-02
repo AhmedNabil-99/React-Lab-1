@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Ensure the parent div takes full height */
+#root {
+    height: 100%;
+}
+
+.bio {
+    background-image: url('./killua.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; 
+    color: white;
+}
+
+.name{
+    font-size:400%;
+    color: black;
+    font-weight: bolder;
+    font-family:fantasy;
+}
+
+.job{
+    font-size:300%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family:fantasy;
+}
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.contact-btn {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
