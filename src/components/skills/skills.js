@@ -1,7 +1,16 @@
 import React from "react";
 import './skills.css';
+import { useState } from'react';
 
 const Skills = () => {
+    const [bar1, setBar1] = useState(90);
+    const [bar2, setBar2] = useState(80);
+    const [bar3, setBar3] = useState(75);
+    const [bar4, setBar4] = useState(70);
+    const [bar5, setBar5] = useState(60);
+    const [bar6, setBar6] = useState(50);
+    const [bar7, setBar7] = useState(65);
+    const [bar8, setBar8] = useState(85);
     return (
         <div className="skills-container text-center p-5">
             <h2 className="mb-4">Skills</h2>
@@ -24,49 +33,49 @@ const Skills = () => {
                         <div className="progress-item mb-3">
                             <span>HTML</span>
                             <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: '90%' }}></div>
+                            <div className="progress-bar" role="progressbar" style={{ width: `${bar1}%` }}></div>
                             </div>
                         </div>
                         <div className="progress-item mb-3">
                             <span>CSS</span>
                             <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: '80%' }}></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: `${bar2}%` }}></div>
                             </div>
                         </div>
                         <div className="progress-item mb-3">
                             <span>JavaScript</span>
                             <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: '75%' }}></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: `${bar3}%` }}></div>
                             </div>
                         </div>
                         <div className="progress-item mb-3">
                             <span>React</span>
                             <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: '70%' }}></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: `${bar4}%` }}></div>
                             </div>
                         </div>
                         <div className="progress-item mb-3">
                             <span>Photoshop</span>
                             <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: '60%' }}></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: `${bar5}%` }}></div>
                             </div>
                         </div>
                         <div className="progress-item mb-3">
                             <span>Adobe XD</span>
                             <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: '50%' }}></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: `${bar6}%` }}></div>
                             </div>
                         </div>
                         <div className="progress-item mb-3">
                             <span>Node.js</span>
                             <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: '65%' }}></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: `${bar7}%` }}></div>
                             </div>
                         </div>
                         <div className="progress-item mb-3">
                             <span>WordPress</span>
                             <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{ width: '85%' }}></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: `${bar8}%` }}></div>
                             </div>
                         </div>
                     </div>
@@ -77,3 +86,4 @@ const Skills = () => {
 }
 
 export default Skills;
+<div className="progress-bar" role="progressbar" style={{ width: '85%' }}></div>

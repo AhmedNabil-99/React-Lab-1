@@ -12,7 +12,7 @@ const Hero = () => {
                         <p><i className="fas fa-phone"></i> 717-555-1234</p>
                     </div>
                     <div className="col-md-4 my-auto cont">
-                        <button className="btn btn-outline-light">CONTACT ME</button>
+                        <button className="btn btn-outline-light" id="contact">CONTACT ME</button>
                     </div>
                     <div className="col-md-4 text-right">
                         <div className="social-icons">

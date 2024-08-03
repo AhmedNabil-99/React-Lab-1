@@ -52,3 +52,15 @@ body, html {
     font-size: 1.5rem;
     padding: 10px 20px;
 }
+.contact-btn a{
+    color: white;
+}
+
+.contact-btn:hover{
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+

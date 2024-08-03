@@ -7,7 +7,7 @@ const Bio = () => {
             <div className='bio'>
                 <p className="name display-1 top-left m-5">Killua Zoldyk</p>
                 <p className="job top-left">Assassin</p>
-                <button className="contact-btn btn btn-primary">Contact Me</button> 
+                <button className="contact-btn btn btn-primary"><a href="#contact">Contact Me</a></button> 
             </div>
         </>
     )
