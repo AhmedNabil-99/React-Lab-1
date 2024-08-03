@@ -86,4 +86,3 @@ const Skills = () => {
 }
 
 export default Skills;
-<div className="progress-bar" role="progressbar" style={{ width: '85%' }}></div>
